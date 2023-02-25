@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <script>
+        function operacoes(num1, num2){
+
+            var soma = num1 + num2
+            var subtracao = num1 - num2
+            var multiplicacao = num1 * num2
+            var divisao = num1 / num2 
+
+            return [soma, subtracao, multiplicacao, divisao];
+        }
+
+        var [soma, subtracao, multiplicacao, divisao] = operacoes(10,3)
+        
+        console.log(soma, subtracao, multiplicacao, divisao)
+
+    </script>
+    
+</body>
+</html>
